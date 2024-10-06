@@ -1,0 +1,839 @@
+
+
+.review-bodyelements {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+.review-header .review-logo img {
+    height: 40px;
+}
+
+.review-header .review-searchbar {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.review-header .review-more {
+    display: flex;
+    align-items: center;
+}
+
+.review-header .review-more button {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.review-main {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.review-image-gallery {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.review-image-gallery .review-main-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-image-gallery .review-small-images {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.review-image-gallery .review-small-images div {
+    width: 274px;
+    height: auto;
+}
+
+.review-image-gallery .review-small-images img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-container{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+}
+
+.review-listing-info {
+    flex: 2; /* Adjust to take up more space */
+}
+
+.review-listing-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review-listing-info p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.review-rating {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    width: 650px;
+    margin-right: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: justify;
+    text-align: center; 
+    line-height: 1.5; 
+}
+
+.review-rating span {
+    display: block; 
+    margin-bottom: 10px;
+    word-wrap: break-word; 
+    max-width: 100%; 
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.review-span-line {
+    height: 50px;
+    margin-left: 30px;
+    background-color: black;
+    border: 0.5px solid black;
+}
+
+.review-host {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.review-host-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.review-host-name {
+    align-items: center;
+    justify-content: center;
+}
+
+.review-cross-line {
+    background-color: black;
+    border: 0.5 solid black;
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.review-features{
+    display: flex;
+    flex-direction: column;
+}
+.review-sub-features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.review-sub-features img{
+    width: 30px;
+    margin-right: 30px;
+    height: 30px;
+  
+}
+.review-about-product{
+    height: 100%;
+    width: 650px;
+}
+.review-sleep-area{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 650px;
+    height: 100%;
+}
+.review-beds{
+    display:flex;
+    flex-wrap: row wrap;
+   
+   
+}
+.review-bed-info{
+    margin-right: 30px;
+    
+    width: 300px;
+    
+    height: 300px;
+}
+.review-bed-info>img{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+.review-bed-info h4{
+    margin-top: 12px;
+}
+.review-offers{
+    width: 650px;
+  
+   
+}
+.review-amenities{
+    
+     display: flex;
+     flex-direction: row;
+     align-content: center;
+     width: 500px;
+}
+
+.review-amemities-description>img{
+   width: 30px;
+   height: 30px;
+   margin-right: 23px;
+   
+}
+.review-amemities-description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 40px;
+
+}
+.amenities-row-two{
+    margin-left: 20px;
+}
+.review-calendar {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-bottom: 20px;
+}
+
+.review-calendar-inputs {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.review-calendar-input {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#review-selected-dates {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+   
+    
+}
+.review-section-line {
+    background-color: black;
+    border: 0.5 solid black;
+    /* width: 650px; */
+    height: 1px;
+}
+.review-rating-head {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Flexbox for rating header: center-aligned icons and number */
+.rating-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Styling for the leaf icons */
+.leaf-icon {
+    width: 60px;
+    color: gold;
+    /* background-color: red; */
+    height: 100px;
+    margin: 0 15px;
+}
+
+/* Styling for the rating score (4.97) */
+.rating-score {
+    font-size: 5em;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styling for the "Guest Favorite" title */
+.rating-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #444;
+    font-weight: 600;
+}
+
+/* Styling for the description paragraph */
+.rating-description {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #666;
+}
+
+.rating-description strong {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Styling for the subtext paragraph */
+.rating-subtext {
+    font-size: 0.9em;
+    color: #888;
+    margin: 5px 0;
+}
+/* Rating section container with flexbox */
+.review-rating-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; /* Allows wrapping for responsive behavior */
+    
+   
+}
+
+/* Small board styling */
+.review-small-board {
+    max-width: 15%;
+    width:100px;
+    height: 150px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px; 
+  
+
+}
+.review-small-board-icon img{
+    /* background-color: red; */
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+.review-rating-horizontal-line{
+    height: 120px;
+    margin-left: 30px;
+    margin-right: 15px;
+    /* background-color: black; */
+    border: 1px solid grey;
+}
+.review-small-board h5 {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.review-small-board p {
+    /* font-size: 1.3em; */
+    /* margin: 2px 0; */
+    color: #000;
+ 
+    font-weight: bold;
+}
+
+.review-small-board i {
+    font-size: 22px;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* Hover effect */
+.review-small-board:hover {
+    background-color: #f7f7f7;
+    border-color: #aaa;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Add a horizontal line between each small board */
+.review-section-line {
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    margin: 15px 0; /* Space above and below the line */
+}
+
+.overall-rating {
+    flex: 1 1 30%; /* Make the overall rating wider */
+    
+    /* background-color: #fff; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Rating bars */
+.rating-bars {
+    margin-top: 10px;
+    
+}
+
+.rating-bars div {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 2px;
+}
+
+.rating-bars .bar {
+    margin-top: 2px;
+    margin-left: 2px;
+    display: inline-block;
+    width: 50px; /* Reduced width */
+    height: 4px; /* Reduced height */
+    background-color: lightgray;
+    border-radius: 2px;
+}
+
+.rating-bars div:nth-child(1) .bar {
+    width: 100%;
+    background-color: black;
+}
+
+.rating-bars div:nth-child(2) .bar {
+    width: 85%;
+    background-color: gray;
+}
+
+.rating-bars div:nth-child(3) .bar {
+    width: 70%;
+    background-color: gray;
+}
+
+.rating-bars div:nth-child(4) .bar {
+    width: 50%;
+    background-color: gray;
+}
+
+.rating-bars div:nth-child(5) .bar {
+    width: 30%;
+    background-color: gray;
+}
+.review-comment-section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+    
+}
+.review-comment-section>div{
+    
+    width: 525px;
+}
+.review-comment-row-two{
+    margin-left: 20px;
+}
+.review-comment-row-one{
+    margin-right: 20px;
+}
+.reviewer-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-top: 35px;
+}
+.reviewer-profile-pic{
+   height: 50px;
+   width: 50px;
+   border-radius: 100%;
+   margin-right: 30px;
+}
+.review-comment-rating{
+    margin-top: 2px;
+}
+.reviewer-comment{
+    margin-top: 8px;
+}
+/* Styles for the sticky price container */
+.review-price-container {
+    position: sticky;
+    top: 20px;
+    float: right;
+    width: 400px;
+    padding: 15px;
+    background-color: white;
+    /* border: 1px solid #eee; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    margin-right: 50px;
+}
+.review-price-per-night{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.review-price-box{
+    /* border:1px solid grey; */
+    border-radius:7px;
+    width: 380px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.review-price-note{
+   margin-top: 10px;
+   width: 380px;
+   border: 1px solid grey;
+   background-color:white;
+   border-radius: 7px;
+   padding: 25px;
+   display: flex;
+   flex-direction: row;
+}
+.review-price-note-tag{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.review-price-date-confirmation{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    /* border:1px solid grey; */
+}
+.review-price-checks-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 7px 7px 0px 0px ;
+}
+.price-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.price-date{
+    font-size: 13px;
+}
+.review-price-checks-line{
+    height: 50px;
+    margin-left:80px;
+    width: 1px;
+    border: 1px solid grey;
+    background-color: grey;
+}
+.review-price-checkout{
+    margin-left: 20px;
+}
+.review-price-checkin{
+    margin-left: 20px;
+}
+.review-price-notification-row{
+    border: 1px solid grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 7px 7px ;
+}
+.notification-row-text{
+    font-size:18px;
+    font-weight: bold;
+}
+.review-button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.review-price-reserve{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+}
+.review-price-calculation-section{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.review-price-calculation-rowOne{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.review-price-line{
+    /* background-color: grey; */
+    border: 0.3px solid rgb(150, 148, 148);
+    margin-top: 15px;
+    width: 100%;
+}
+.review-price-calculation-result{
+    font-weight: bold;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Comment Input Section */
+.add-review-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-review-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.add-review-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.add-review-section .submit-review {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .review-small-board {
+        flex: 1 1 30%; /* Adjust to smaller sizes */
+        max-width: 30%;
+    }
+
+    .overall-rating {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .review-small-board {
+        flex: 1 1 45%; /* Adjust to two columns */
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .review-small-board {
+        flex: 1 1 100%; /* Full width on small screens */
+        max-width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .review-bodyelements {
+        padding: 10px;
+    }
+    .review-header {
+        padding: 10px;
+    }
+    .review-main {
+        padding: 10px;
+    }
+    .review-image-gallery {
+        flex-direction: column;
+    }
+    .review-image-gallery .review-small-images {
+        flex-direction: row;
+    }
+    .review-image-gallery .review-small-images div {
+        width: 100%;
+    }
+    .review-container {
+        flex-direction: column;
+    }
+    .review-listing-info {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .review-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .review-header .review-searchbar {
+        margin: 10px 0;
+    }
+    .review-header .review-more {
+        margin-top: 10px;
+    }
+    .review-main h2 {
+        font-size: 24px;
+    }
+    .review-image-gallery .review-main-image img {
+        width: 100%;
+        height: auto;
+    }
+    .review-image-gallery .review-small-images {
+        flex-direction: column;
+    }
+    .review-image-gallery .review-small-images div {
+        width: 100%;
+    }
+    .review-listing-info h1 {
+        font-size: 20px;
+    }
+    .review-listing-info p {
+        font-size: 16px;
+    }
+    .review-rating {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .review-bodyelements {
+        padding: 5px;
+    }
+    .review-header {
+        padding: 5px;
+    }
+    .review-main {
+        padding: 5px;
+    }
+    .review-image-gallery {
+        margin-bottom: 10px;
+    }
+    .review-image-gallery .review-main-image img {
+        width: 100%;
+        height: auto;
+    }
+    .review-image-gallery .review-small-images {
+        flex-direction: column;
+    }
+    .review-image-gallery .review-small-images div {
+        width: 100%;
+    }
+    .review-listing-info h1 {
+        font-size: 18px;
+    }
+    .review-listing-info p {
+        font-size: 14px;
+    }
+    .review-rating {
+        font-size: 10px;
+    }
+}
+@media (max-width<1024){
+    .review-price-container {
+       position: relative; /* Change to relative */
+       margin-top: 20px; /* Add margin to separate from calendar */
+       width: 100%; /* Make it full width */
+   }
+}

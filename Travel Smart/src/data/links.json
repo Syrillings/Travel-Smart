@@ -1,0 +1,25 @@
+{
+  "locations": {
+    "Abuja": [
+      "https://th.bing.com/th/id/OIP.YoeteB2-2pIiAFq-U1gFgAHaEK?rs=1&pid=ImgDetMain",
+      "https://th.bing.com/th/id/R.da20b50be090c3ccd02ced37a3747929?rik=onH%2bzvu63mkvRA&riu=http%3a%2f%2fwww.cfmedia.vfmleonardo.com%2fimageRepo%2f7%2f0%2f105%2f215%2f386%2f01_Hotel_Exterior_S.jpg&ehk=%2bw73bTKjClIfNX1cEWELI5OLhcC9CKATzab5XQRA3VE%3d&risl=&pid=ImgRaw&r=0",
+      "https://th.bing.com/th/id/R.4a32280229d07a93d2ecd813b574d907?rik=sy52dISI0YJQzA&pid=ImgRaw&r=0"
+    ],
+    "London": [
+      "https://media.timeout.com/images/103619028/image.jpg",
+      "https://stylist-assets.imgix.net/app/uploads/2015/05/09130607/the-langham-london-hotel-pool.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress",
+      "https://www.tripsavvy.com/thmb/y8NN162Etq5Lt-p3r0a70ig7jsE=/4100x2733/filters:fill(auto,1)/The-Berkeley-Rooftop-Pool-588b6d425f9b5874ee48e30c.jpg",
+      "https://www.londonkensingtonguide.com/wp-content/uploads/2023/02/London-Hotels-With-Stunning-Swimming-Pools-1024x683.jpeg"
+    ],
+    "Pakistan": [
+      "https://th.bing.com/th/id/R.96d1043754589dd436d7a92aae29d1f9?rik=HFZrR2thCtO6GA&pid=ImgRaw&r=0",
+      "https://pix6.agoda.net/hotelImages/208/208830/208830_16060320040043124719.jpg?s=960x720",
+      "https://www.pchotels.com/asset/images/pc-hotel-lahore.jpg"
+    ],
+    "Italy": [
+      "https://th.bing.com/th/id/OIP.qwkj7GF_4sR5Mn7CbkUT8QHaFj?rs=1&pid=ImgDetMain",
+      "https://media.boutiquehotel.me/hotel/cover/81338_1520981331.jpg",
+      "https://www.summerinitaly.com/images/photos/travel_guide/5733.jpg"
+    ]
+  }
+}

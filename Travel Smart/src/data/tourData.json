@@ -1,0 +1,269 @@
+ [
+  {
+  "id": 1,
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cf/fa/42/caption.jpg?w=300&h=300&s=1",
+  "title": "European Getaway (Tour & Flight)",
+  "location": "Rome, Italy",
+  "alternateImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/07/ad/24/caption.jpg?w=1400&h=500&s=1",
+  "rating": {
+  "stars": 5,
+  "score": 9.3,
+  "reviews": 348
+  },
+  "flightInfo": {
+  "origin": "Lagos (LOS)",
+  "destination": "Rome (FCO)"
+  },
+  "price": {
+  "discount": 70000,
+  "current": 1130000,
+  "original": 1200000
+  },
+  "duration": {
+  "startDate": "2024-10-06",
+  "endDate": "2024-10-12",
+  "nights": 6
+  },
+  "continent": "Europe",
+  "about": "Explore the historic and cultural beauty of Rome, from ancient ruins to modern cafes. A perfect getaway for lovers of history and art.",
+  "video": {
+  "youtubeID": "DEJx0CYrDHk?si=kQrTHN8sy1m2eq3D",
+  "title": "Discover Rome"
+  },
+  "thingsToDo": [
+  "Visit the Colosseum and Roman Forum",
+  "Explore Vatican City and the Sistine Chapel",
+  "Walk through the beautiful streets of Trastevere"
+  ],
+  "hotels": [1, 2, 4]
+  },
+  {
+  "id": 2,
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c2/7b/93/caption.jpg?w=300&h=300&s=1",
+  "title": "African Safari Adventure",
+  "location": "Cape Town, South Africa",
+  "alternateImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2e/1e/cape-town.jpg?w=1400&h=500&s=1",
+  "rating": {
+  "stars": 4,
+  "score": 8.5,
+  "reviews": 200
+  },
+  "flightInfo": {
+  "origin": "Abuja (ABJ)",
+  "destination": "Cape Town (CPT)"
+  },
+  "price": {
+  "discount": 50000,
+  "current": 950000,
+  "original": 1000000
+  },
+  "duration": {
+  "startDate": "2024-11-01",
+  "endDate": "2024-11-08",
+  "nights": 7
+  },
+  "continent": "Africa",
+  "about": "Experience the thrill of a safari, alongside the stunning beauty of Cape Town. Adventure, wildlife, and city life combined.",
+  "video": {
+  "youtubeID": "srP7RFVdjWc?si=nQm6Fo35yzxSaWaz",
+  "title": "Cape Town Safari Highlights"
+  },
+  "thingsToDo": [
+  "Go on a safari at Kruger National Park",
+  "Explore the scenic Table Mountain",
+  "Visit Robben Island, where Nelson Mandela was imprisoned"
+  ],
+  "hotels": [3, 5, 6]
+  },
+  {
+  "id": 3,
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/7c/68/caption.jpg?w=300&h=300&s=1&cx=950&cy=1766&chk=v1_9ee2771da71f55a7ac6a",
+  "title": "South American Odyssey",
+  "location": "Machu Picchu, Peru",
+  "alternateImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/0b/48/f2/early-morning-atop-machu.jpg?w=1400&h=500&s=1",
+  "rating": {
+  "stars": 5,
+  "score": 9.5,
+  "reviews": 500
+  },
+  "flightInfo": {
+  "origin": "Lagos (LOS)",
+  "destination": "Lima (LIM)"
+  },
+  "price": {
+  "discount": 100000,
+  "current": 1500000,
+  "original": 1600000
+  },
+  "duration": {
+  "startDate": "2024-12-01",
+  "endDate": "2024-12-10",
+  "nights": 9
+  },
+  "continent": "South America",
+  "about": "A journey through the heart of Peru, culminating in the iconic lost city of Machu Picchu. A cultural and natural marvel.",
+  "video": {
+  "youtubeID": "BY3_7pRHfs0?si=SG_C-H1V8pPOgO62",
+  "title": "Machu Picchu Wonders"
+  },
+  "thingsToDo": [
+  "Trek the Inca Trail to Machu Picchu",
+  "Visit the Sacred Valley of the Incas",
+  "Explore the vibrant city of Cusco"
+  ],
+  "hotels": [1, 2, 3]
+  },
+  {
+  "id": 4,
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/15/27/c7/caption.jpg?w=300&h=300&s=1",
+  "title": "Asian Escapade",
+  "location": "Bangkok, Thailand",
+  "alternateImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c2/78/15/caption.jpg?w=1400&h=500&s=1",
+  "rating": {
+  "stars": 4,
+  "score": 8.8,
+  "reviews": 400
+  },
+  "flightInfo": {
+  "origin": "Abuja (ABJ)",
+  "destination": "Bangkok (BKK)"
+  },
+  "price": {
+  "discount": 80000,
+  "current": 1300000,
+  "original": 1400000
+  },
+  "duration": {
+  "startDate": "2025-01-05",
+  "endDate": "2025-01-12",
+  "nights": 7
+  },
+  "continent": "Asia",
+  "about": "A vibrant mix of culture, history, and modernity in Thailand's bustling capital, Bangkok. Temples, street food, and nightlife await.",
+  "video": {
+  "youtubeID": "21mKbR-4VTA?si=RUWPZW99dCCx6vhv",
+  "title": "Discover Bangkok"
+  },
+  "thingsToDo": [
+  "Visit the Grand Palace and Wat Phra Kaew",
+  "Take a boat tour of the Chao Phraya River",
+  "Shop and eat at the Chatuchak Weekend Market"
+  ],
+  "hotels": [2, 4, 5]
+  },
+  {
+  "id": 5,
+  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/c7/b4/0e/caption.jpg?w=300&h=300&s=1&cx=3478&cy=2156&chk=v1_5a57c6b331ccbdf916fd",
+  "title": "Australian Adventure",
+  "location": "Sydney, Australia",
+  "alternateImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/84/4c/88/caption.jpg?w=1400&h=500&s=1&cx=984&cy=523&chk=v1_00dace674f6f45c8ec71",
+  "rating": {
+  "stars": 5,
+  "score": 9.8,
+  "reviews": 600
+  },
+  "flightInfo": {
+  "origin": "Lagos (LOS)",
+  "destination": "Sydney (SYD)"
+  },
+  "price": {
+  "discount": 120000,
+  "current": 1800000,
+  "original": 1900000
+  },
+  "duration": {
+  "startDate": "2025-02-01",
+  "endDate": "2025-02-10",
+  "nights": 9
+  },
+  "continent": "Australia",
+  "about": "Explore the wonders of Sydney, from the iconic Opera House to the natural beauty of Bondi Beach and the Blue Mountains.",
+  "video": {
+  "youtubeID": "OrIDTJH2ZZM?si=8hUnfOQ_6ORk6Bmu",
+  "title": "Sydney: Beyond the Harbor"
+  },
+  "thingsToDo": [
+  "Visit the Sydney Opera House",
+  "Take a walk along the Sydney Harbour Bridge",
+  "Relax at Bondi Beach"
+  ],
+  "hotels": [1, 3, 6]
+  },
+  {
+  "id": 6,
+  "image": "https://img.freepik.com/free-photo/breathtaking-view-glacier-antarctica_181624-10121.jpg",
+  "title": "Antarctic Expedition",
+  "alternateImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4d/43/af/vancouver-island.jpg?w=1400&h=500&s=1",
+  "location": "Antarctica",
+  "rating": {
+  "stars": 5,
+  "score": 9.7,
+  "reviews": 250
+  },
+  "flightInfo": {
+  "origin": "Lagos (LOS)",
+  "destination": "Punta Arenas (PUQ)"
+  },
+  "price": {
+  "discount": 150000,
+  "current": 2500000,
+  "original": 2650000
+  },
+  "duration": {
+  "startDate": "2025-03-15",
+  "endDate": "2025-03-25",
+  "nights": 10
+  },
+  "continent": "Antarctica",
+  "about": "A once-in-a-lifetime journey to the remote and breathtaking landscapes of Antarctica, home to glaciers, wildlife, and endless adventure.",
+  "video": {
+  "youtubeID": "HmHSuGGFIWA?si=G4Gnuph4N-h40arw",
+  "title": "Journey to Antarctica"
+  },
+  "thingsToDo": [
+  "Explore icebergs and glaciers by zodiac",
+  "Visit a penguin colony",
+  "Experience the midnight sun"
+  ],
+  "hotels": [4,1.2]
+},
+
+  {
+    "id": 7,
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/7a/be/2b/d11e4339-f518-4fdd.jpg?w=400&h=300&s=1",
+    "title": "North American Adventure",
+    "alternateImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c2/87/c8/caption.jpg?w=1400&h=500&s=1",
+    "location": "San Francisco, USA",
+    "rating": {
+      "stars": 4,
+      "score": 8.9,
+      "reviews": 450
+    },
+    "flightInfo": {
+      "origin": "Abuja (ABJ)",
+      "destination": "San Francisco (SFO)"
+    },
+    "price": {
+      "discount": 90000,
+      "current": 1350000,
+      "original": 1440000
+    },
+    "duration": {
+      "startDate": "2025-04-10",
+      "endDate": "2025-04-18",
+      "nights": 8
+    },
+    "continent": "North America",
+    "about": "Experience the bright lights, iconic landmarks, and diverse culture of New York City.",
+    "video": {
+      "youtubeID": "Oo6iAxf4si0?si=Xw4QMCP8yz1RYXTL",
+      "title": "Discover New York"
+    },
+    "thingsToDo": [
+      "Visit the Statue of Liberty and Central Park",
+      "Explore the Metropolitan Museum of Art",
+      "Walk across the Brooklyn Bridge"
+    ],
+    "hotels": [1, 2, 3]
+  }
+]  
